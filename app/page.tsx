@@ -162,7 +162,7 @@ export default function Home() {
                 </TooltipProvider>
               </div>
               <div className="grid grid-cols-2 gap-4">
-                {['animals', 'magic', 'friendship', 'nature', 'family', 'courage', 'creativity', 'diversity', 'teamwork', 'curiosity', 'problem-solving', 'kindness'].map((theme) => (
+                {['animals', 'magic', 'friendship', 'nature', 'family', 'courage', 'creativity', 'Kinship', 'teamwork', 'curiosity', 'problem-solving', 'kindness'].map((theme) => (
                   <div key={theme} className="flex items-center space-x-2">
                     <Checkbox
                       id={`theme-${theme}`}
